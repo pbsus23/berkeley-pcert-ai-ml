@@ -13,7 +13,7 @@ Below are the brief description of the solution approach to findings and conclus
 ### 2) Standard Process: CRISP-DM Framework**
 
 To frame the task, throughout our practical applications we will refer back to a standard process in industry for data projects called CRISP-DM. This process provides a framework for working through a data problem. 
-<img src="images/crisp" alt="Figure: CRISP-DM Framework">
+<img src="images/crisp.png" alt="Figure: CRISP-DM Framework">
 
 ### 3) Business Understanding
 
