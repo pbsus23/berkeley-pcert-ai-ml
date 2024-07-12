@@ -1,23 +1,25 @@
 # Practical Application Assignment 11.1: What Drives the Price of a Car?
 
-### 1) Overview**
+### 1) Overview
 
 In this application, we are exploreing a dataset from kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing. Our goal is to understand what factors make a car more or less expensive. As a result of this analysis, we can provide clear recommendations to our client -- a used car dealership -- as to what consumers value in a used car.
 
 Here is link of my Jupyter notebook with all details together with analysis, coding evaluation, findings and conclusiuon.
 
+[Jupyter Notebook](https://github.com/pbsus23/berkeley-pcert-ai-ml/tree/main/PracticalApp2/prompt_II.ipynb)
+
 
 Below are the brief description of the solution approach to findings and conclusion:
-[Jupyter Notebook](https://github.com/pbsus23/berkeley-pcert-ai-ml/tree/main/PracticalApp2/prompt_II.ipynb)
+
 
 ### 2) Standard Process: CRISP-DM Framework**
 
-To frame the task, throughout our practical applications we will refer back to a standard process in industry for data projects called CRISP-DM. This process provides a framework for working through a data problem. 
+To frame the task, throughout our practical applications we refer back to a standard process in industry for data projects called CRISP-DM. This process provides a framework for working through a data problem. 
 <img src="images/crisp.png" alt="Figure: CRISP-DM Framework">
 
 ### 3) Business Understanding
 
-From a business perspective, we are tasked with identifying key drivers for used car prices. In the CRISP-DM overview, we are asked to convert this business framing to a data problem definition. Using a few sentences, reframe the task as a data task with the appropriate technical vocabulary.
+From a business perspective, we are tasked with identifying key drivers for used car prices. In the CRISP-DM overview, we are asked to convert this business framing to a data problem definition. 
 
 **3.1) About Used Cars Business**
 
@@ -39,7 +41,7 @@ Visualization will add more user friendly representation of the outcomes and hel
 
 ### 4) Data Understanding
 
-After considering the business understanding, we want to get familiar with our data. Write down some steps that you would take to get to know the dataset and identify any quality issues within. Take time to get to know the dataset and explore what information it contains and how this could be used to inform your business understanding.
+After considering the business understanding, we want to get familiar with our data. Below are steps that we take to get to know the dataset and identify any quality issues within. Get to know the dataset and explore what information it contains and how this could be used to inform our business understanding.
 
 **4.1) Data Source**
 
@@ -60,7 +62,7 @@ After our initial exploration and fine tuning of the business understanding, we 
 
 ### 6) Modeling
 
-With our final dataset in hand, it is now time to build some models. Here, wee build a number of different regression models with the price as the target. In building models, you explore different parameters and be sure to cross-validate your findings. This includes:
+With our final dataset in hand, it is now time to build some models. Here, we build a number of different regression models with the price as the target. In building models, you explore different parameters and be sure to cross-validate your findings. This includes:
 
 6.1) Data Preparation for Modeling: Spliting dataset into Training ser and Test set
 6.2) Regression Models
@@ -68,7 +70,7 @@ With our final dataset in hand, it is now time to build some models. Here, wee b
 
 ### 7) Evaluation
 
-With some modeling accomplished, we aim to reflect on what we identify as a high quality model and what we are able to learn from this. We review our business objective and explore how well we can provide meaningful insight on drivers of used car prices. Goal now is to distill our findings and determine whether the earlier phases need revisitation and adjustment or if we have information of value to bring back to our client. This includes:
+With modeling accomplished, we aim to reflect on what we identify as a high quality model and what we are able to learn from this. We review our business objective and explore how well we can provide meaningful insight on drivers of used car prices. Goal now is to distill our findings and determine whether the earlier phases need revisitation and adjustment or if we have information of value to bring back to our client. This includes:
 
 7.1) Prediction vs Actual Comparasion
 7.2)-7.5) Prediction and Comparasion with Actuals: with different random samples: I used samples of size 5, 10, 20 and 50
